@@ -14,6 +14,7 @@ import (
 const megabyteDiv uint64 = 1024 * 1024
 const gigabyteDiv uint64 = megabyteDiv * 1024
 
+// Get system info
 func GetSystemSection() (string, error) {
 	runTimeOS := runtime.GOOS
 
